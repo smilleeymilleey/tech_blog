@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "tech_blog",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smilleeymilleey/tech_blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smilleeymilleey/tech_blog/issues"
+  },
+  "homepage": "https://github.com/smilleeymilleey/tech_blog#readme"
+}
