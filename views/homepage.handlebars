@@ -1,0 +1,23 @@
+<div class="my-header">
+  <h3>The Tech Blog</h3>
+</div>
+<!-- Loop over each object in the posts array -->
+{{#each posts as |post| }}
+<div class="row mb-4 post">
+  <div class="col-md-12">
+
+    <table class="my-table">
+      <tr>
+        <td class="bg-light my-title-l"><a href="#">{{post.title}}</a></td>
+        <td class="bg-light my-title-r">Created by: {{post.user.name}}</td> 
+      </tr>
+    </table>
+
+  </div>
+  <div class="col-md-12 my-text">
+    <p>
+      {{post.post_text}}
+    </p>
+  </div>
+</div>
+{{/each}}
